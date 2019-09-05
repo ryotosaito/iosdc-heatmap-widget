@@ -33,7 +33,7 @@ export default {
       )
     },
     displayRotation: (vm) => {
-      vm.currentImg = (vm.currentImg + 1) % 3
+      vm.currentImg = (vm.currentImg + 1) % vm.imageSrc.length
     }
   }
 }
