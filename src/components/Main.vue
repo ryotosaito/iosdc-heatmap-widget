@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>Heatmaps</h1>
+    <img src="../assets/iosdc_logo.png" height="250px" />
+    <h1>Site Heatmap</h1>
     <canvas id="heatmap" width="897px" height="644px" />
     <img id="img" width="100%" v-bind:src="imageSrc[currentImg]" style="display:none;" v-on:load="imgRender()"/>
   </div>
